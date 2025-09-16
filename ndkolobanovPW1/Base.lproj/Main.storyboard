@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ndkolobanovPW1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v84-hI-TVR">
+                                <rect key="frame" x="96" y="652" width="201" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <action selector="buttonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jGE-Fn-37u"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" id="9h9-TO-2IY">
+                                <rect key="frame" x="16" y="256" width="361" height="196"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" id="JPt-M1-DWs">
+                                        <rect key="frame" x="292" y="14" width="45" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <viewLayoutGuide key="safeArea" id="xUg-ED-TXD"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                    </view>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="qbF-14-gFK"/>
+                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                                <color key="tintColor" systemColor="systemCyanColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="3D4-Jg-UyI">
+                                <rect key="frame" x="16" y="485" width="361" height="46"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <viewLayoutGuide key="safeArea" id="WBM-89-KzF"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="MPn-Cu-gcf">
+                                <rect key="frame" x="16" y="451" width="361" height="46"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <viewLayoutGuide key="safeArea" id="Op5-hE-ALG"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="v84-hI-TVR" id="Eqr-ph-GAH"/>
+                        <outlet property="grassView" destination="MPn-Cu-gcf" id="I4J-ef-qzk"/>
+                        <outlet property="groundView" destination="3D4-Jg-UyI" id="3xb-cC-Vaf"/>
+                        <outlet property="skyView" destination="9h9-TO-2IY" id="HkB-Pt-8Qi"/>
+                        <outlet property="sunView" destination="JPt-M1-DWs" id="ZZS-wp-h5D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113.74045801526717" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemCyanColor">
+            <color red="0.1960784314" green="0.67843137249999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
