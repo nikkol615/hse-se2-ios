@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		C11130082E82EBEA00EE45CD /* ndkolobanovPW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ndkolobanovPW2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11130292E82EC3A00EE45CD /* ndkolobanovPW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ndkolobanovPW2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C111301A2E82EBEB00EE45CD /* Exceptions for "ndkolobanovPW2" folder in "ndkolobanovPW2" target */ = {
+		C111303B2E82EC3B00EE45CD /* Exceptions for "ndkolobanovPW2" folder in "ndkolobanovPW2" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = C11130072E82EBEA00EE45CD /* ndkolobanovPW2 */;
+			target = C11130282E82EC3A00EE45CD /* ndkolobanovPW2 */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C111300A2E82EBEA00EE45CD /* ndkolobanovPW2 */ = {
+		C111302B2E82EC3A00EE45CD /* ndkolobanovPW2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				C111301A2E82EBEB00EE45CD /* Exceptions for "ndkolobanovPW2" folder in "ndkolobanovPW2" target */,
+				C111303B2E82EC3B00EE45CD /* Exceptions for "ndkolobanovPW2" folder in "ndkolobanovPW2" target */,
 			);
 			path = ndkolobanovPW2;
 			sourceTree = "<group>";
@@ -32,7 +32,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C11130052E82EBEA00EE45CD /* Frameworks */ = {
+		C11130262E82EC3A00EE45CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C1112FFF2E82EBEA00EE45CD = {
+		C11130202E82EC3A00EE45CD = {
 			isa = PBXGroup;
 			children = (
-				C111300A2E82EBEA00EE45CD /* ndkolobanovPW2 */,
-				C11130092E82EBEA00EE45CD /* Products */,
+				C111302B2E82EC3A00EE45CD /* ndkolobanovPW2 */,
+				C111302A2E82EC3A00EE45CD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C11130092E82EBEA00EE45CD /* Products */ = {
+		C111302A2E82EC3A00EE45CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C11130082E82EBEA00EE45CD /* ndkolobanovPW2.app */,
+				C11130292E82EC3A00EE45CD /* ndkolobanovPW2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C11130072E82EBEA00EE45CD /* ndkolobanovPW2 */ = {
+		C11130282E82EC3A00EE45CD /* ndkolobanovPW2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C111301B2E82EBEB00EE45CD /* Build configuration list for PBXNativeTarget "ndkolobanovPW2" */;
+			buildConfigurationList = C111303C2E82EC3B00EE45CD /* Build configuration list for PBXNativeTarget "ndkolobanovPW2" */;
 			buildPhases = (
-				C11130042E82EBEA00EE45CD /* Sources */,
-				C11130052E82EBEA00EE45CD /* Frameworks */,
-				C11130062E82EBEA00EE45CD /* Resources */,
+				C11130252E82EC3A00EE45CD /* Sources */,
+				C11130262E82EC3A00EE45CD /* Frameworks */,
+				C11130272E82EC3A00EE45CD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C111300A2E82EBEA00EE45CD /* ndkolobanovPW2 */,
+				C111302B2E82EC3A00EE45CD /* ndkolobanovPW2 */,
 			);
 			name = ndkolobanovPW2;
 			packageProductDependencies = (
 			);
 			productName = ndkolobanovPW2;
-			productReference = C11130082E82EBEA00EE45CD /* ndkolobanovPW2.app */;
+			productReference = C11130292E82EC3A00EE45CD /* ndkolobanovPW2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C11130002E82EBEA00EE45CD /* Project object */ = {
+		C11130212E82EC3A00EE45CD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					C11130072E82EBEA00EE45CD = {
+					C11130282E82EC3A00EE45CD = {
 						CreatedOnToolsVersion = 16.3;
 					};
 				};
 			};
-			buildConfigurationList = C11130032E82EBEA00EE45CD /* Build configuration list for PBXProject "ndkolobanovPW2" */;
+			buildConfigurationList = C11130242E82EC3A00EE45CD /* Build configuration list for PBXProject "ndkolobanovPW2" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = C1112FFF2E82EBEA00EE45CD;
+			mainGroup = C11130202E82EC3A00EE45CD;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = C11130092E82EBEA00EE45CD /* Products */;
+			productRefGroup = C111302A2E82EC3A00EE45CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C11130072E82EBEA00EE45CD /* ndkolobanovPW2 */,
+				C11130282E82EC3A00EE45CD /* ndkolobanovPW2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C11130062E82EBEA00EE45CD /* Resources */ = {
+		C11130272E82EC3A00EE45CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C11130042E82EBEA00EE45CD /* Sources */ = {
+		C11130252E82EC3A00EE45CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,7 +138,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C111301C2E82EBEB00EE45CD /* Debug */ = {
+		C111303D2E82EC3B00EE45CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -150,9 +150,9 @@
 				INFOPLIST_FILE = ndkolobanovPW2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -166,7 +166,7 @@
 			};
 			name = Debug;
 		};
-		C111301D2E82EBEB00EE45CD /* Release */ = {
+		C111303E2E82EC3B00EE45CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -178,9 +178,9 @@
 				INFOPLIST_FILE = ndkolobanovPW2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -194,7 +194,7 @@
 			};
 			name = Release;
 		};
-		C111301E2E82EBEB00EE45CD /* Debug */ = {
+		C111303F2E82EC3B00EE45CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -258,7 +258,7 @@
 			};
 			name = Debug;
 		};
-		C111301F2E82EBEB00EE45CD /* Release */ = {
+		C11130402E82EC3B00EE45CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -318,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C11130032E82EBEA00EE45CD /* Build configuration list for PBXProject "ndkolobanovPW2" */ = {
+		C11130242E82EC3A00EE45CD /* Build configuration list for PBXProject "ndkolobanovPW2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C111301E2E82EBEB00EE45CD /* Debug */,
-				C111301F2E82EBEB00EE45CD /* Release */,
+				C111303F2E82EC3B00EE45CD /* Debug */,
+				C11130402E82EC3B00EE45CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C111301B2E82EBEB00EE45CD /* Build configuration list for PBXNativeTarget "ndkolobanovPW2" */ = {
+		C111303C2E82EC3B00EE45CD /* Build configuration list for PBXNativeTarget "ndkolobanovPW2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C111301C2E82EBEB00EE45CD /* Debug */,
-				C111301D2E82EBEB00EE45CD /* Release */,
+				C111303D2E82EC3B00EE45CD /* Debug */,
+				C111303E2E82EC3B00EE45CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C11130002E82EBEA00EE45CD /* Project object */;
+	rootObject = C11130212E82EC3A00EE45CD /* Project object */;
 }
