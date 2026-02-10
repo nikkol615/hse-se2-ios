@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCalendarsUsageDescription</key>
+	<string>We need access to your calendar to schedule wish-granting events. Your calendar data stays private and is only used to create events you choose.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>We need full access to your calendar to schedule wish-granting events. Your calendar data stays private and is only used to create events you choose.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

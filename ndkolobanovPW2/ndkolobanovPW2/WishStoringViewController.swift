@@ -18,10 +18,17 @@ final class WishStoringViewController: UIViewController {
     private let table: UITableView = UITableView(frame: .zero)
     private var wishArray: [String] = []
     private let defaults = UserDefaults.standard
-    
+    private var backgroundColor_: UIColor = .systemPink
+
+    // MARK: - Init
+    convenience init(backgroundColor: UIColor) {
+        self.init()
+        self.backgroundColor_ = backgroundColor
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemPink
+        view.backgroundColor = backgroundColor_
         configureTable()
         loadWishes()
     }
@@ -29,7 +36,7 @@ final class WishStoringViewController: UIViewController {
     private func configureTable() {
         view.addSubview(table)
         table.translatesAutoresizingMaskIntoConstraints = false
-        table.backgroundColor = .systemPink.withAlphaComponent(0.3)
+        table.backgroundColor = backgroundColor_.withAlphaComponent(0.3)
         table.dataSource = self
         table.delegate = self
         table.separatorStyle = .none
